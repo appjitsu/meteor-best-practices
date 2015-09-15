@@ -21,6 +21,7 @@ ejson
 spacebars
 check
 less
+jshint
 
 # main app entry point
 app
