@@ -28,7 +28,7 @@ HomeLayout = React.createClass({
                 <div className="collection-item hoverable"><a href="http://facebook.github.io/react/" target="_blank">ReactJS</a></div>
                 <div className="collection-item hoverable"><a href="https://github.com/kadirahq/flow-router" target="_blank">FlowRouter</a></div>
                 <div className="collection-item hoverable"><a href="https://www.mongodb.org/" target="_blank">MongoDB</a></div>
-                <div className="collection-item hoverable"><a href="http://materializecss.com/" target="_blank">Metarialize CSS</a></div>
+                <div className="collection-item hoverable"><a href="http://materializecss.com/" target="_blank">Materialize CSS</a></div>
               </div>
             </div>
           </div>
