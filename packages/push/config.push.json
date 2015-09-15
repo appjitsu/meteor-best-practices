@@ -1,0 +1,17 @@
+{
+  "apn": {
+    "passphrase": "xxxxxxxxxxxx",
+    "cert": "PushCert.pem",
+    "key": "PushKey.pem",
+    "gateway": "gateway.sandbox.push.apple.com" // change to gateway.push.apple.com for production
+  },
+  "gcm": {
+    "apiKey": "xxxxxxxxxxxx",
+    "projectNumber": "xxxxxxxxxxxx"
+  },
+  "production": false, // false = testing
+  "badge": true,
+  "sound": true,
+  "alert": true,
+  "vibrate": true
+}
