@@ -4,6 +4,7 @@ This project was created to act as starting point for your projects and to combi
 
 ##Stack:
 - Meteor 1.2 - https://www.meteor.com
+    + details about the release - http://info.meteor.com/blog/announcing-meteor-1.2
 - React - http://facebook.github.io/react
 - FlowRouter - https://github.com/kadirahq/flow-router
 - MongoDB - https://www.mongodb.org
