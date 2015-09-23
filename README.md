@@ -3,7 +3,7 @@
 This project was created to act as starting point for your projects and to combine all of current best practices for Meteor.js.
 
 ##Stack:
-- Meteor 1.2 (currently RC15) - https://www.meteor.com
+- Meteor 1.2 - https://www.meteor.com
 - React - http://facebook.github.io/react
 - FlowRouter - https://github.com/kadirahq/flow-router
 - MongoDB - https://www.mongodb.org
