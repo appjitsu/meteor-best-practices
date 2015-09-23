@@ -24,7 +24,7 @@ HomeLayout = React.createClass({
             <div className="card-content white-text">
               <span className="card-title">Current Stack</span>
               <div className="collection">
-                <div className="collection-item hoverable"><a href="https://www.meteor.com/" target="_blank">Meteor 1.2 Full Release</a>  (<a href="http://info.meteor.com/blog/announcing-meteor-1.2">read more</a>)</div>
+                <div className="collection-item hoverable"><a href="http://info.meteor.com/blog/announcing-meteor-1.2" target="_blank">Meteor 1.2</a></div>
                 <div className="collection-item hoverable"><a href="http://facebook.github.io/react/" target="_blank">ReactJS</a></div>
                 <div className="collection-item hoverable"><a href="https://github.com/kadirahq/flow-router" target="_blank">FlowRouter</a></div>
                 <div className="collection-item hoverable"><a href="https://www.mongodb.org/" target="_blank">MongoDB</a></div>
