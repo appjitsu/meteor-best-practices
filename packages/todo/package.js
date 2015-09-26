@@ -1,6 +1,6 @@
 Package.describe({
   version: '0.0.1',
-  summary: 'Meteor Best Practices'
+  summary: 'Todo List Components'
 });
 
 Package.onUse(function(api) {
