@@ -1,6 +1,6 @@
 Meteor.methods({
 	// send a push notification
-	serverNotification: function() {
+	serverNotification: (name, ...params){
 		console.log("sending push...");
 		Push.send({
 			from: 'push',

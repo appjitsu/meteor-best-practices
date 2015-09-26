@@ -5,9 +5,7 @@ DefaultLayout = React.createClass({
       <div className="nav-wrapper container"><a id="logo-container" href="#" className="brand-logo">Meteor Best Practices</a></div>
     </nav>
     <div className="container">
-
    	  {this.props.content}
-
     </div>
     <footer className="page-footer orange">
       <div className="footer-copyright">

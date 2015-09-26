@@ -9,13 +9,8 @@ Package.onUse(function(api) {
   api.use([
     'react',
     'kadira:flow-router-ssr',
-    'kadira:react-layout',
     'materialize:materialize',
-    'momentjs:moment',
-
-    // custom packages
-    'todo'
-    // 'push'
+    'momentjs:moment'
   ]);
 
   // client only
@@ -30,11 +25,9 @@ Package.onUse(function(api) {
 
   // common only
   api.addFiles([
-    'accounts.js',
-    'router.jsx',
     'collections.js',
-    'layouts/default.jsx',
-    'layouts/home.jsx'
+    'components/todo_page.jsx',
+    'components/todo_list.jsx'
   ], ['client', 'server']);
 
   // server only
@@ -42,6 +35,9 @@ Package.onUse(function(api) {
     'server.js',
     'publications.js'
   ], 'server');
+
+  api.export('TodoList');
+  api.export('TodoPage');
 
 });
 

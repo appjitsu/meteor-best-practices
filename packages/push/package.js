@@ -18,6 +18,7 @@ Package.onUse(function(api) {
 
   // server only
   api.addFiles([
+    'methods.js',
     'server.js'
   ], 'server');
 

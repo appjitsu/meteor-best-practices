@@ -1,19 +1,18 @@
 TodoList = React.createClass({
   mixins: [ReactMeteorData],
   getMeteorData() {
-    var selector = {category: {$ne: "private"}};
-    var handle = Meteor.subscribe('todos', selector);
-    var data = {};
+    let selector = {category: {$ne: "private"}};
+    let handle = Meteor.subscribe('todos', selector);
+    let data = {};
     if(handle.ready()) {
       data.todos = Todos.find({}, {sort: {_id: 1}}).fetch();
     }
- 
     return data;
   },
   getList() {
     return <ul>
       {this.data.todos.map(function(todo) {
-        var path = FlowRouter.path('todo', {_id: todo._id})
+        let path = FlowRouter.path('todo', {_id: todo._id})
         return <li key={todo._id}><a href={path}>{todo.title}</a></li>
       })}
     </ul>;
