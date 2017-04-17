@@ -2,7 +2,7 @@
 
 This package is the entry point for the application. It is included in the main .meteor/packages file and is the only package listed.
 
-##Included Packages:
+## Included Packages:
 - accounts-password
 - templating
 - less
